@@ -17,4 +17,8 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/FMDemo_PC.unity
     guid: 73bff2890b99dda4a8170b75c2f5756c
-  m_configObjects: {}
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 8ceb0ea4fc71e2a4c8d26286c569691a,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 6d2d3aa97be72934d89629ca6a5228ad,
+      type: 2}
