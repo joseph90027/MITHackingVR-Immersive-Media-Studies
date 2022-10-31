@@ -14,7 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FMDemo_AR.unity
     guid: 18b78067e2f3f8f42bbec9aaa8d5751a
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/FMDemo_PC.unity
     guid: 73bff2890b99dda4a8170b75c2f5756c
   m_configObjects:

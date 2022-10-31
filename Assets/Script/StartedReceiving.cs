@@ -19,6 +19,7 @@ namespace OscSimpl.Examples
 		public OSCtoText TextHorizontalScript;
 		public OSCtoText TextVerticalScript;
 		public GameObject Sphere;
+		public GameObject MoveSphere;
 
 
 		void Start()
@@ -75,6 +76,7 @@ namespace OscSimpl.Examples
 				TextHorizontalScript.textFloat = joystick_horizentalValue;
 				TextVerticalScript.textFloat = joystick_verticalValue;
 				Sphere.transform.position += new Vector3(TextHorizontalScript.textFloat * Time.deltaTime, TextVerticalScript.textFloat * Time.deltaTime, 0);
+				MoveSphere.transform.position += new Vector3(TextHorizontalScript.textFloat * Time.deltaTime, TextVerticalScript.textFloat * Time.deltaTime, 0);
 			}
 
 			// If you don't know what type of arguments to expect, then you 
